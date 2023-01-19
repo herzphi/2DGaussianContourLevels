@@ -56,5 +56,9 @@ For a single ellipse use `get_ellipse_props(cov, confidence)`.
 ```bash
 cov = #  Your covariance matrix
 confidence = 0.5
+
 major_axis, minor_axis, angle = get_ellipse_props(cov, confidence)
 ```
+## Visualization
+For visualization use `example_ellipse_plot`.
+![example](https://user-images.githubusercontent.com/102586476/213469564-109c0caa-fbe0-4c7c-af6c-0e798cc6528d.png)
