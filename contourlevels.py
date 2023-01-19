@@ -31,7 +31,13 @@ def g2d_function(x_mean, y_mean, x_std, y_std, rho):
 
 def get_ellipse_props(cov, confidence):
     """
-    
+    Calculates the properties of the ellipse based on a given confidence.
+        Args:
+            cov (numpy.array 2x2): Covariance matrix.
+            confidence (float): Quantile between 0 and 1.
+        Returns:
+            major_axis, minor_axis, angle (float): Length of the 
+            respective axis'.
     """
     r_prime = -2*log(1-confidence)
     eigenvalues, eigenvectors = eig(cov)
