@@ -1,4 +1,4 @@
-# 2DGaussianContourLevels
+# Two Dimensional Gaussian Contour Levels
 Calculates the contours of a two dimensional normal distribution of a desired amount of probability. The idea is to transform the ellipse to a circle and calculate the integral of the PDF, set it equal to a quantile and tranform it back. The main steps are as follows:
 ```math
 (\vec{x}-\vec{\mu})^\intercal \Sigma^{-1} (\vec{x}-\vec{\mu}) = d^2 \\
