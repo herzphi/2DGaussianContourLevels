@@ -25,7 +25,7 @@ R = \sqrt{-2\ln{(1-q)}}
 ```math
 a = R \sqrt{\lambda_1} = \sqrt{-2 \lambda_1\ln{(1-q)}}  \text{ and }  b = R \sqrt{\lambda_2} = \sqrt{-2 \lambda_2\ln{(1-q)}}
 ```
-## Usage
+## Get Started
 Get a dictionary containing semi-major axis, semi-minor axis and the angle of the ellipse w.r.t to the major axis from example_ellipse_prop.py by the arguments of confidence as list and covariance matrix of your probability distribution function.
 
 ```bash
